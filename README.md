@@ -37,6 +37,7 @@ The dashboard consists of 3 vertical-stack columns:
 #### _Right column_
 - Schedule
 
-Everything is translated into Dutch as far as the cards allow.
+Everything is translated into Dutch as far as the cards allow to.
 
-An extra empty tab is added so that the primary card is shown as tab, with its icon and text.
+An extra empty tab is added so that the primary tab is shown as tab, with its icon and text.
+(a dashboard with a single tab isn't shown as tab)
