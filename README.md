@@ -14,7 +14,7 @@
 
 ### _How to use_
 
-Install formulaone-card, custom-brand-icons and keep-texts-in-tabs through [HASC](https://hacs.xyz/).
+Install formulaone-card, custom-brand-icons and keep-texts-in-tabs through [HACS](https://hacs.xyz/).
 
 Create an account at Visual Crossing to get your API key needed for the weather forcast in the next_race card.
 
