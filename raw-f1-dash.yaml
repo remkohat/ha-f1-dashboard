@@ -1,0 +1,144 @@
+keep_texts_in_tabs:
+  enabled: true
+  mobile_config:
+    enabled: false
+    mobile_screen_width: 1280
+views:
+  - type: masonry
+    path: f1
+    title: Formule1
+    icon: phu:f1
+    cards:
+      - type: vertical-stack
+        cards:
+          - type: custom:formulaone-card
+            card_type: next_race
+            title: Volgende Race
+            f1_font: true
+            date_locale: nl
+            image_clickable: false
+            show_raceinfo: true
+            show_lastyears_result: true
+            next_race_delay: 3
+            show_weather: true
+            weather_options:
+              unit: metric
+              api_key: <your API key here>
+            translations:
+              date: Datum
+              practice1: FP1
+              practice2: FP2
+              practice3: FP3
+              racetime: Race
+              sprint: Sprint race
+              race: Ronde
+              racename: Naam
+              circuitname: Circuit
+              location: Land
+              city: Stad
+              qualifying: Kwalificatie
+              endofseason: Het seizoen is voorbij. Tot volgend jaar!
+          - type: custom:formulaone-card
+            card_type: last_result
+            title: Uitslag Laatste Race
+            f1_font: true
+            show_carnumber: true
+            translations:
+              driver: Coureur
+              grid: Start
+              points: Punten
+              status: Resultaat
+      - type: vertical-stack
+        cards:
+          - type: custom:formulaone-card
+            card_type: countdown
+            title: Countdown
+            f1_font: true
+            countdown_type:
+              - race
+              - qualifying
+              - practice1
+              - practice2
+              - practice3
+              - sprint
+              - sprintqualifying
+            translations:
+              days: d
+              hours: u
+              minutes: m
+              seconds: s
+              until: Tot
+              practice1: FP1
+              practice2: FP2
+              practice3: FP3
+              sprintqualifying: Sprint Kwalificatie
+              sprint: Sprint race
+              qualifying: Kwalificatie
+              race: Race
+              endofseason: Het seizoen is voorbij. Tot volgend jaar!!
+          - type: custom:formulaone-card
+            card_type: driver_standings
+            title: Stand Coureurs
+            f1_font: true
+            show_carnumber: true
+            translations:
+              driver: Coureur
+              team: Constructeur
+              points: Punten
+              wins: Overwinningen
+              no_standings: Nog geen resultaten beschikbaar
+            standings:
+              show_flag: true
+              show_team: true
+              show_teamlogo: true
+          - type: custom:formulaone-card
+            card_type: constructor_standings
+            title: Stand Constructeurs
+            f1_font: true
+            translations:
+              constructor: Constructeur
+              points: Punten
+              wins: Overwinningen
+              no_standings: Nog geen resultaten beschikbaar
+            standings:
+              show_flag: true
+              show_teamlogo: true
+          - type: custom:formulaone-card
+            card_type: results
+            title: Uitslagen
+            f1_font: true
+            show_carnumber: true
+            translations:
+              seasonheader: Seizoen
+              selectseason: Kies seizoen
+              raceheader: Race
+              selectrace: Kies race
+              noresults: Nog geen resultaten beschikbaar
+              driver: Coureur
+              team: Constructeur
+              grid: Start
+              points: Punten
+              status: Resultaat
+            standings:
+              show_flag: true
+              show_team: true
+              show_teamlogo: true
+      - type: vertical-stack
+        cards:
+          - type: custom:formulaone-card
+            card_type: schedule
+            title: Agenda
+            f1_font: true
+            date_locale: nl
+            previous_race: strikethrough
+            standings:
+              show_flag: true
+            translations:
+              race: Circuit
+              location: Locatie
+              date: Datum
+              time: Tijd
+  - type: masonry
+    path: ''
+    cards: []
+    title: ' '
