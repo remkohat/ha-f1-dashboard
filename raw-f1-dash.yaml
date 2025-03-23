@@ -26,7 +26,7 @@ views:
               api_key: <your API key here>
             translations:
               date: Datum
-              race: Ronde
+              round: Ronde
               racename: Naam
               circuitname: Circuit
               location: Land
@@ -49,6 +49,36 @@ views:
               grid: Start
               points: Punten
               status: Resultaat
+              Finished: Gefinisht
+              Retired: Uitgevallen
+              Disqualified: Gediskwalificeerd
+              Not classified: Niet geclassificeerd
+              Lapped: Op een ronde
+              +1 Lap: +1 Ronde
+              +2 Laps: +2 Rondes
+              +3 Laps: +3 Rondes
+              +4 Laps: +4 Rondes
+              +5 Laps: +5 Rondes
+              +6 Laps: +6 Rondes
+              Brakes: Remmen
+              Clutch: Koppeling
+              Electrical: Elektrisch
+              Engine: Motor
+              Fuel system: Brandstof systeem
+              Gearbox: Versnellingsbak
+              Hydraulics: Hydraulica
+              Ignition: Ontsteking
+              Oil leak: Olie lek
+              Out of fuel: Zonder brandstof
+              Overheating: Oververhitting
+              Suspension: Ophanging
+              Throttle: Gaspedaal
+              Transmission: Transmissie
+              Turbo: Turbo
+              Accident: Ongeluk
+              Collision: Botsing
+              Spun off: Gespind
+              Withdrew: Opgegeven
       - type: vertical-stack
         cards:
           - type: custom:formulaone-card
@@ -76,7 +106,7 @@ views:
               sprint: Sprint race
               qualifying: Kwalificatie
               race: Race
-              endofseason: Het seizoen is voorbij. Tot volgend jaar!!
+              endofseason: Het seizoen is voorbij. Tot volgend jaar!
           - type: custom:formulaone-card
             card_type: driver_standings
             title: Stand Coureurs
@@ -120,6 +150,36 @@ views:
               grid: Start
               points: Punten
               status: Resultaat
+              Finished: Gefinisht
+              Retired: Uitgevallen
+              Disqualified: Gediskwalificeerd
+              Not classified: Niet geclassificeerd
+              Lapped: Op een ronde
+              +1 Lap: +1 Ronde
+              +2 Laps: +2 Rondes
+              +3 Laps: +3 Rondes
+              +4 Laps: +4 Rondes
+              +5 Laps: +5 Rondes
+              +6 Laps: +6 Rondes
+              Brakes: Remmen
+              Clutch: Koppeling
+              Electrical: Elektrisch
+              Engine: Motor
+              Fuel system: Brandstof systeem
+              Gearbox: Versnellingsbak
+              Hydraulics: Hydraulica
+              Ignition: Ontsteking
+              Oil leak: Olie lek
+              Out of fuel: Zonder brandstof
+              Overheating: Oververhitting
+              Suspension: Ophanging
+              Throttle: Gaspedaal
+              Transmission: Transmissie
+              Turbo: Turbo
+              Accident: Ongeluk
+              Collision: Botsing
+              Spun off: Gespind
+              Withdrew: Opgegeven
             standings:
               show_flag: true
               show_team: true
@@ -135,7 +195,7 @@ views:
             standings:
               show_flag: true
             translations:
-              race: Circuit
+              round: Circuit
               location: Locatie
               date: Datum
               time: Tijd
